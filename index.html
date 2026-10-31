@@ -3,18 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Ariti Turnos</title>
-
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
 
-    <h1>Ariti Turnos</h1>
+<div class="dashboard">
 
-    <p>Sistema de gestión de turnos.</p>
+    <!-- MENÚ LATERAL -->
+    <aside class="sidebar">
 
-    <script src="js/app.js"></script>
+        <div class="sidebar-logo">
+            <h2>Ariti Turnos</h2>
+        </div>
+
+        <nav class="sidebar-menu">
+            <a href="#" class="menu-item active">Calendario</a>
+            <a href="#" class="menu-item">Pacientes</a>
+            <a href="#" class="menu-item">Disponibilidad</a>
+            <a href="#" class="menu-item">Configuración</a>
+        </nav>
+
+        <div class="sidebar-profile">
+            <h3>Ariana Dibella</h3>
+            <p>Administradora</p>
+        </div>
+
+    </aside>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main class="main-content">
+
+        <!-- ENCABEZADO -->
+        <div class="page-header">
+
+            <div class="page-title">
+                <h1>Calendario</h1>
+                <p>Gestioná tus próximos turnos.</p>
+
+                <button class="new-appointment">
+                    + Nuevo turno
+                </button>
+            </div>
+
+        </div>
+
+        <!-- BARRA DE NAVEGACIÓN DEL CALENDARIO -->
+        <div class="calendar-toolbar">
+            <div class="calendar-date">
+                <p>26 oct. - 1 nov. 2026</p>
+            </div>
+
+            <div class="calendar-controls">
+                <button class="button-week">Semana anterior</button>
+                <button class="button-week">Semana siguiente</button>
+                <button class="new-appointment">Hoy</button>
+            </div>
+
+        </div>
+
+<section class="calendar-week">
+
+    <div class="calendar-day active">
+        <span>LUN</span>
+        <strong>26</strong>
+    </div>
+
+    <div class="calendar-day">
+        <span>MAR</span>
+        <strong>27</strong>
+    </div>
+
+    <div class="calendar-day">
+        <span>MIÉ</span>
+        <strong>28</strong>
+    </div>
+
+    <div class="calendar-day">
+        <span>JUE</span>
+        <strong>29</strong>
+    </div>
+
+    <div class="calendar-day">
+        <span>VIE</span>
+        <strong>30</strong>
+    </div>
+
+    <div class="calendar-day">
+        <span>SÁB</span>
+        <strong>31</strong>
+    </div>
+
+    <div class="calendar-day">
+        <span>DOM</span>
+        <strong>1</strong>
+    </div>
+
+</section>
+
+    </main>
+
+</div>
+
 </body>
 </html>
